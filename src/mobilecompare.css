@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile-compare{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-compare-data{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.note-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.note-main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.points-first{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bebebe;
+    border-radius: 50%;
+    margin: 0px 10px 20px 10px;
+}
+
+.all-ponts{
+    display: flex;
+    margin: 0 20px;
+}
+.vs{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #bebebe;
+}
+.vs span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border: 1px solid #bebebe;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: -25px;
+}
+.price{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bebebe;
+    margin-bottom: 20px;
+
+}
